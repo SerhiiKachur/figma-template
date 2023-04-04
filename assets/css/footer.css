@@ -1,0 +1,35 @@
+.footer-box {
+  background-color: var(--accent-color);
+}
+.info-box {
+  color: var(--accent-text-color);
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.footer-text{
+  padding: 0.2rem;
+}
+.vklogo-box {
+  text-align: center;
+  padding:1rem;
+}
+.vklogo-box-item {
+}
+
+@media screen and (min-width: 992px) {
+  .footer-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1320px;
+  }
+  .info-box{
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  .vklogo-box {
+    ;
+  }
+}
