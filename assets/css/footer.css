@@ -8,14 +8,12 @@
   font-size: 1rem;
 }
 
-.footer-text{
+.footer-text {
   padding: 0.2rem;
 }
 .vklogo-box {
   text-align: center;
-  padding:1rem;
-}
-.vklogo-box-item {
+  padding: 1rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -24,12 +22,20 @@
     display: flex;
     justify-content: space-between;
     max-width: 1320px;
+    padding: 2rem;
   }
-  .info-box{
+  .info-box {
     font-size: 1rem;
-    margin-bottom: 0;
+    text-align: start;
   }
   .vklogo-box {
-    ;
+    display: flex;
+  }
+  .vklogo-box-item {
+    margin: 0.5rem;
+  }
+  .small-heading {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
   }
 }
