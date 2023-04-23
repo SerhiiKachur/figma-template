@@ -1,5 +1,17 @@
+.want-website {
+
+
+  margin:0 auto;
+  padding: 100px 10px 100px 10px;
+  background-color: var(--bg-color);
+}
 .form {
+  width: 540px;
   background-color: var(--bg-color);
   text-align: center;
+  margin: 0 auto;
+}
+.centered-text {
+  width: 540px;
   margin: 0 auto;
 }
