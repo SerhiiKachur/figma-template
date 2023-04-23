@@ -1,17 +1,38 @@
 .want-website {
-
-
-  margin:0 auto;
+  margin: 0 auto;
   padding: 100px 10px 100px 10px;
   background-color: var(--bg-color);
+  padding-bottom: 3rem;
 }
 .form {
+  
   width: 540px;
-  background-color: var(--bg-color);
+  padding-top: 20px;
   text-align: center;
   margin: 0 auto;
 }
 .centered-text {
+  padding-bottom: 5rem;
   width: 540px;
   margin: 0 auto;
+}
+.input-container{
+    display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 540px;
+  margin: 0px;
+
+
+}
+.input{
+  margin: 0px 0px 20px 0px;
+  height: 50px;
+  width: 250px;
+  border:none;
+  
+}
+.textarea{
+  width: 540px;
+  border: none;
 }

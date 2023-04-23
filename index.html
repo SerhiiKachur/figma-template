@@ -77,8 +77,8 @@
         </article>
       </div>
     </section>
-    <section>
-      <article class="want-website">
+    <section class="want-website">
+      <article class="container ">
         <h2 class="centered-text small-heading">Хотите веб-сайт?</h2>
         <p class="text centered-text">
           Lorem Ipsum - это текст-"рыба", часто используемый в печати и
@@ -86,17 +86,26 @@
           латинице с начала XVI века.
         </p>
         <form class="form">
-          <div class="name">
-            <input type="name" required placeholder="Ваше имя" />
-          </div>
-          <div class="e-mail">
-            <input type="email" required placeholder="Ваш e-mail" />
-          </div>
+          <fieldset class="input-container">
+            <input
+              class="input input-name"
+              type="name"
+              required
+              placeholder="Ваше имя"
+            />
+
+            <input
+              class="input input-email"
+              type="email"
+              required
+              placeholder="Ваш e-mail"
+            />
+          </fieldset>
           <textarea
             class="textarea"
             name="message"
-            cols="40"
-            rows="15"
+            cols="50"
+            rows="12"
             placeholder="Cообщение"
           ></textarea>
           <button class="btn">ОТПРАВИТЬ</button>

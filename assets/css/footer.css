@@ -22,7 +22,7 @@
     display: flex;
     justify-content: space-between;
     max-width: 1320px;
-    padding: 2rem;
+    padding: 2rem 0rem 2rem 0rem ;
   }
   .info-box {
     font-size: 1rem;
